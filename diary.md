@@ -7,3 +7,8 @@
 
 - Ok, being clear on comms channels and responsibilities is critical. Looks like we were doing a directed graph of comms. Me to central, central to darya, and darya to me.
 - Always check with worldtimebuddy on timing, and pay attention to which row one is looking at. 
+
+## July 10 (Brian)
+
+- Clearly, working on this right after being lead instructor for an online carpentry is... wise, right? 
+- Objective for this hour is to figure out a markdown slide workflow that works with github pages so we're not mucking about with infrastructure and so our slides are version controlled. Also I want a pony.
