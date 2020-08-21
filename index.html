@@ -18,8 +18,11 @@
   </head>
   <body>
     <textarea id="source">
+class: center, middle
+<!-- Formatting must occur immediately after the slide-start declaration -->
 
-<!-- 
+<!-- https://github.com/gnab/remark/wiki
+ --><!-- 
 
 TODO Darya
   - Notes to self: make google docs for landing, plus x 6 for final challenge
@@ -34,91 +37,85 @@ TODO Brian
 
 
 
-.class: center, middle
 
 # Lesson co-development using reverse design: a worked example
 
 ![Carpentries Logo](images/TheCarpentries.svg)
 
-By: Dr Darya Vanichinka (University of Sydney) and Dr Brian Ballsun-Stanton (Macquarie University)
+Dr Darya Vanichinka (University of Sydney) 
+
+Dr Brian Ballsun-Stanton (Macquarie University)
+
+---
+# Agenda
+
+
+| Timing | Task |
+|------------|----------------------------------|
+| 30 minutes | "Who and what" + group exercises |
+| 10 minutes | Break |
+| 30 minutes | "Narrative and Challenges" + group exercises |
+| 10 minutes | Break |
+| 30 minutes | "Timing and Talking" + summative group assessment |
+| remainder (hah) | Discussion and Feedback |
+| final 3 minutes | Minute Cards |
+
+
+
 
 ---
 
+
+
+<!-- 
+
+ /$$$$$$$                       /$$             /$$  
+| $$__  $$                     | $$           /$$$$  
+| $$  \ $$ /$$$$$$   /$$$$$$  /$$$$$$        |_  $$  
+| $$$$$$$/|____  $$ /$$__  $$|_  $$_/          | $$  
+| $$____/  /$$$$$$$| $$  \__/  | $$            | $$  
+| $$      /$$__  $$| $$        | $$ /$$        | $$  
+| $$     |  $$$$$$$| $$        |  $$$$/       /$$$$$$
+|__/      \_______/|__/         \___/        |______/
+                                                   
+
+#####################################  
 # Agenda: Part 1
+######################################
+
+
 
 1. Who are we? What are we doing here? What's going on?
 1. Restate our objective
 1. Disclaimer: this is our alpha run (remember this for later)
-<!-- 1. Aside: Common traps -->
+Removed 1. Aside: Common traps
 1. D What to teach: Making a target audience
 1. D What to teach: Making learner profiles
 1. D What to teach: Mapping skills and goals from learners
 1. B Aside: Designing a carpentries workshop versus designing a lesson
 1. B Challenges: Finding data
-1. D Exercise: Form groups, make personae, make summative task to test goal.
-
----
-# Agenda: Part 2
-
-<!-- 1. Challenges: Turning it into a teachable dataset -->
-1. DB Reflection: reflect on group pages
-1. D Reminder: formative assessments
-1. B Narrative: What do people need to know to complete each formative assessment ()
-1. B First draft: Write an outline of your narrative for each code chunk
-1. B Aside: Brian's theory of outlines. What to say is different from how to say
-1. B First draft: Allocate skills as learning objectives to lessons.
-1. B First draft: Allocate challenge+code+narrative to each episode to satisfy learning objectives
-1. D Challenges: Making a challenge to exercise a skill
-1. D Challenges: Designing a good MCQ
-1. D Challenges: Parson's problems
-1. D Challenges: Fill in the blank
-1. D Challenges: Change context
-1. B Exercise: Design formative assessments needed to accomplish summative task.
-
----
-# Agenda: Part 3
-
-1. DB Reflection: Reflect on choice of formative assessments.
-1. B Aside: Temporal budgets and overkill
-1. B Aside: How does live coding factor into this?
-<!-- Live coding is the simplest possible formative assessment: follow along.
- -->
-1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
-1. D Run a pilot: Teach your lesson from outline to your helpers and co-instructors
-1. D Run a pilot: While issues: iterate
-1. D Run a pilot: Flesh out narrative from outline, move outline into instructor notes
-1. B Summative exercise: proving that we've designed a workshop??
-
-Using the combined group doc of your topic, plan a workshop.
-This workshop should have personae, a summative assessment, formative assessments, a few bulletpoints per formative assessment, and be sorted into episodes. 
-
-
-
-<!-- 
-1. First draft: Write key points summarising capabilities from challenges
-1. First draft: Check that your key points match your skills
-1. First draft: Write framing questions -->
-
----
-<!-- # Agenda: Part 4
-
-1. Run a pilot: Publish alpha lesson
-1. Second pilot: Run a test workshop, and start from the top. 
-1. Aside: How to use markdown for the lesson infrastructure.
---- -->
+1. D Exercise: Form groups, make personae, make summative task to test goal. -->
 
 # Introduction
 
 - Who we are (faces)
 
+???
+Both 
 ---
+# Purpose of this workshop
+
+???
+Darya
+ ---
 # Real step 1: Who are your learners?
 
 - Reverse design: start with who your learners are and what they should be able to DO at the end of the course.
 - Everything is developed from that premise
 
+???
+Darya
 ---
-
 # Draft personas for this workshops
 
 .right[![Carpentries Logo](images/helena-lopes-PGnqT0rXWLs-unsplash.jpg)]
@@ -129,20 +126,37 @@ This workshop should have personae, a summative assessment, formative assessment
 - Z - watching session later on Youtube, not familiar with Carpentries philosophy or teaching style
 - ... 
 
+???
+Darya
 ---
+
 # Add "flesh" to the personas: K
 
 <!--
   Link to rest of personas fleshed out here
   Also need a photo
 -->
-- K is a PhD-qualified particle physicist who learned to use python for research work. During PhD, delivering introductory programming training with a cross-university training organisation as a casual tutor. 
-- After graduation, found employment with this organisation as a full-time trainer. 
-- Would like to grow in role by developing new training, and doesn't really know where to start.
-- Has tried by making a list of topics to cover in a new course.
-- Hasn't been exposed to any learning theory, received any training in instruction beyond that learned from peers on the job - and doesn't feel comfortable reaching out to trainers around who do have some of this background for support, as most of them are not employed on a full-time contracts (imposter syndrome). 
-- Deeply concerned about climate change. 
 
+<!-- https://github.com/gnab/remark/issues/72 -->
+<table>
+  <tr>
+    <td style="width:30%">
+![:img Generated image from thispersondoesnotexist.com -- StyleGAN2 (Dec 2019), Karras et al. and Nvidia, 75%](https://thispersondoesnotexist.com/image)
+</td>
+<td>
+<ul>
+<li>K is a PhD-qualified particle physicist who learned to use python for research work. During PhD, delivering introductory programming training with a cross-university training organisation as a casual tutor. </li>
+<li> After graduation, found employment with this organisation as a full-time trainer. </li>
+<li> Would like to grow in role by developing new training, and doesn't really know where to start.</li>
+<li> Has tried by making a list of topics to cover in a new course.</li>
+<li> Hasn't been exposed to any learning theory, received any training in instruction beyond that learned from peers on the job - and doesn't feel comfortable reaching out to trainers around who do have some of this background for support, as most of them are not employed on a full-time contracts (imposter syndrome). </li>
+<li> Deeply concerned about climate change. </li>
+</td>
+</tr>
+</table>
+
+???
+Darya
 ---
 # Think about what learners will be able to DO at the end
 
@@ -156,6 +170,42 @@ This workshop should have personae, a summative assessment, formative assessment
 - Well, to develop a course plan  or a mini-course, as that's more feasible in < 2 hours
 - It will be a group task (peer learning) 
 
+???
+Darya
+---
+# Talk-at-you aside 1: Finding datasets and making them teachable
+
+
+**Inclusivity in technical training is tricky: start with real data and real scenarios and see the researchers you are teaching.**
+
+- Dataset, scenario, and tools chosen informs:
+  - Cognitive load
+  - Sense of identification with the problem
+  - Motivations
+???
+Brian
+
+1. B Challenges: Finding data
+
+Also: inclusivity in technical training
+--
+<!-- Incremental slide -->
+- Performance of FAIR data
+  - When we use and cite "real" data, we demonstrate "reproducible research" to participants
+  - Participants must understand point of data and nature of data in about 5 minutes. **Simplify ruthlessly.**
+  - Make sure there's a license which allows this.
+
+--
+- Meet learners where they are
+  - Carpentries participants have *hugely different* skill sets. 
+  - A local lesson can assume shared context, jargon, and competencies. 
+
+???
+Brian
+B Aside: Designing a carpentries workshop versus designing a lesson
+
+- Skills known by postgrads on the other side of the world, in different faculties should not be assumed.
+
 ---
 # Our summative task for today: group development of mini-courses in < 2 hours!
 
@@ -165,7 +215,9 @@ Options:
 1. Starting a new job off on the right foot (the first month)
 1. Diet and exercise to stay healthy 
 
-<!--Each of us reflects on multiple groups in same google doc-->
+???
+Darya
+Each of us reflects on multiple groups in same google doc
 
 ---
 # Our summative task for today: why did we choose these?
@@ -185,6 +237,8 @@ Possible caveats/challenges of each one for personas
 -->
 
 
+???
+Darya
 
 ---
 # Our summative task for today: group development of mini-courses in < 2 hours!
@@ -198,21 +252,16 @@ Options:
 
 ### Other notes:
 - "Generic" topics - most people will be able to contribute
-
----
-# Talk-at-you aside 1: (more specific to Carpentries): Finding datasets and making them teachable
-<!--Brian-->
-<!--Also: inclusivity in technical training-->
+???
+Darya
 
 
 ---
-
-
 # Our summative task for today: group development of mini-courses in < 2 hours!
 
 <!--Group work google docs picture here-->
 
-### Challenge 1:
+### Formative Challenge 1:
 
 In your breakout rooms (10 min or until 1st break?):
 1. Introduce yourselves briefly
@@ -220,11 +269,60 @@ In your breakout rooms (10 min or until 1st break?):
 3. Agree on a summative assessment task
 4. Reflect on the alignment of that assessment task with learning goals
 
+Timer: https://cuckoo.team/metameta
+
+???
+Darya
+
 ---
-<!--Come back. Summary of highlights from each group (in chat if HEAPS of people//time) -->
+# Break time
+
+10 minutes
+
+Timer: https://cuckoo.team/metameta
+
+
+???
+Come back. Summary of highlights from each group (in chat if HEAPS of people//time)
 ---
 
-# What are the key tasks needed to achieve this?
+
+
+<!-- 
+
+ /$$$$$$$                       /$$            /$$$$$$ 
+| $$__  $$                     | $$           /$$__  $$
+| $$  \ $$ /$$$$$$   /$$$$$$  /$$$$$$        |__/  \ $$
+| $$$$$$$/|____  $$ /$$__  $$|_  $$_/          /$$$$$$/
+| $$____/  /$$$$$$$| $$  \__/  | $$           /$$____/ 
+| $$      /$$__  $$| $$        | $$ /$$      | $$      
+| $$     |  $$$$$$$| $$        |  $$$$/      | $$$$$$$$
+|__/      \_______/|__/         \___/        |________/
+                                                       
+                                                       
+                                                       
+
+#############################################
+# Agenda: Part 2
+##########################################333
+
+1. DB Reflection: reflect on group pages
+1. D Reminder: formative assessments
+1. B Narrative: What do people need to know to complete each formative assessment ()
+1. B First draft: Write an outline of your narrative for each code chunk
+1. B Aside: Brian's theory of outlines. What to say is different from how to say
+1. B First draft: Allocate skills as learning objectives to lessons.
+1. B First draft: Allocate challenge+code+narrative to each episode to satisfy learning objectives
+1. D Challenges: Making a challenge to exercise a skill
+1. D Challenges: Designing a good MCQ
+1. D Challenges: Parson's problems
+1. D Challenges: Fill in the blank
+1. D Challenges: Change context
+1. B Exercise: Design formative assessments needed to accomplish summative task.
+ -->
+
+
+# Formative Reflection 1: What are the key tasks needed to achieve this?
 
 1. Personas *
 2. Learning outcome - a summative assessment task *
@@ -235,7 +333,107 @@ In your breakout rooms (10 min or until 1st break?):
 3. [Knowing the arsenal of types of formative assessments that can be combined for effective learning, and the pros/cons of each]
 4. Identifying the minimum necessarily information for getting students "to" the assessment
 5. Reviewing the series through the persona lens & identifying time constraints/skippable-if-need-be formative assessments
+???
+5 minutes
+Darya + Brian
+---
 
+# Challenges: What makes a formative assessment?
+
+<!-- @dvanic Should this be here? -->
+
+???
+Darya
+1. D Reminder: formative assessments
+---
+# Narrative: Skill decomposition, explanation, and setup
+
+* Each formative assessment will expect learners to do something.
+* Live coding **is a formative assessment.**
+* The narrative is: "What does a learner need to know in order to complete this formative assessment"
+   * Inteded outcome
+   * How do they know they have achieved success?
+   * What pattern is the assessment demonstrating?
+   * How does this link to the bigger picture?
+
+???
+1. B Narrative: What do people need to know to complete each formative assessment ()
+1. B First draft: Write an outline of your narrative for each code chunk
+---
+# Talk-at-you aside 2: Start with an outline, not a script
+
+* An outline specifies *what* you want to say, and how thoughts are arranged
+  * Writing a text or script specifies *how* you want to communicate thoughts previously arranged.
+  * When designing a work, outline at roughly a 1:4 ratio (1 word of outline for every 4 expected words of script)
+  * No sentences!
+
+![:img Meme from The Incredibles - Pixar/Disney, 30%](https://media1.tenor.com/images/b9a827678b058774a279b42084459108/tenor.gif?itemid=4809949)
+
+
+* We are going to end up throwing most of the text away. 
+  * Focus on how ideas relate to each other, not how to express them. 
+  * Transitions, callouts, and asides come later. For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
+* Don't be this slide.
+???
+
+
+---
+# Narrative: Allocate skills as learning objectives to the workshop.
+
+* 45 minutes ago, we said to: "Think about what learners will be able to DO at the end"
+* What *specific* skills will they need to do that? 
+  * Use bloom's taxonomy words here when listing out the skills they will need.
+  * Don't split them apart yet, just get a sense of prerequisites
+* These skills are both a functional decomposition of the final goal and specific takeaways that learners will know they have achieved during the workshop. 
+* You will be writing challenges to have learners demonstrate to themselves that they can perform each of these skills.
+
+???
+Brian
+
+1. B First draft: Allocate skills as learning objectives to lessons.
+---
+# Challenges: Making a challenge to exercise a skill
+
+???
+1. D Challenges: Making a challenge to exercise a skill
+---
+# Challenges: Designing a good MCQ
+
+???
+1. D Challenges: Designing a good MCQ
+---
+# Challenges: Parson's problems
+
+???
+1. D Challenges: Parson's problems
+---
+# Challenges: Fill in the blank
+
+???
+1. D Challenges: Fill in the blank
+---
+# Challenges: Change context
+
+???
+1. D Challenges: Change context
+---
+# Aside: How does live coding factor into this?
+
+* Live coding is an assessment
+* Attention and accuracy check. 
+  * Are they aware of *exactly* what is being written? 
+  * Errors
+  * Expectations of the medium (precision and syntax)
+* It is a formative assessment
+
+???
+1. B Aside: How does live coding factor into this?
+Removed? Live coding is the simplest possible formative assessment: follow along.
+---
+# Exercise: Design formative assessments needed to accomplish summative task.
+
+???
+1. B Exercise: Design formative assessments needed to accomplish summative task.
 
 ---
 # Formative assessments
@@ -246,22 +444,145 @@ In your breakout rooms (10 min or until 1st break?):
 <!--Could also use programming examples combined with boiling an egg?-->
 
 ---
+# Break time
+
+10 minutes
+
+Timer: https://cuckoo.team/metameta
+
+<!--
+ /$$$$$$$                       /$$            /$$$$$$ 
+| $$__  $$                     | $$           /$$__  $$
+| $$  \ $$ /$$$$$$   /$$$$$$  /$$$$$$        |__/  \ $$
+| $$$$$$$/|____  $$ /$$__  $$|_  $$_/           /$$$$$/
+| $$____/  /$$$$$$$| $$  \__/  | $$            |___  $$
+| $$      /$$__  $$| $$        | $$ /$$       /$$  \ $$
+| $$     |  $$$$$$$| $$        |  $$$$/      |  $$$$$$/
+|__/      \_______/|__/         \___/         \______/ 
+                                                       
+                                                       
+                                                       
+#################################
+# Agenda: Part 3
+##################################
+
+
+
+1. DB Reflection: Reflect on choice of formative assessments.
+1. B NEW Added first draft allocation of challenge+code+narrative to satisfy objectives.
+1. B Aside: Temporal budgets and overkill
+1. B Aside: How does live coding factor into this?
+Removed? Live coding is the simplest possible formative assessment: follow along.
+ 
+1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
+1. D Run a pilot: Teach your lesson from outline to your helpers and co-instructors
+1. D Run a pilot: While issues: iterate
+1. D Run a pilot: Flesh out narrative from outline, move outline into instructor notes
+1. B Summative exercise: proving that we've designed a workshop??
+
+
+ -->
+---
+# Reflection on formative assignments
+
+??? 
+DB Reflection: Reflect on choice of formative assessments.
+
+
+---
+# Talking to you aside 3: Temporal budgets and overkill
+
+* You will write too much
+* You will design too much
+* What you design will suffer from the "expert awareness gap"
+* Aim low
+
+???
+1. B Aside: Temporal budgets and overkill
+---
+# Preparing a pilot: Time Yourself talking
+???
+1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
+---
+# Episodes, challenges, narrative, and time-budget
+
+
+
+???
+1. B First draft: Allocate challenge+code+narrative to each episode to satisfy learning objectives
+---
+# Run a pilot: Teach the lesson early!
+
+???
+1. D Run a pilot: Teach your lesson from outline to your helpers and co-instructors
+---
+# Run a pilot: iterate! 
+
+???
+1. D Run a pilot: While issues: iterate
+---
+# Run a pilot: Move from outline to text, use the outline as instructor notes
+
+???
+1. D Run a pilot: Flesh out narrative from outline, move outline into instructor notes
+
+---
+# Summative challenge: Using the combined group doc of your topic, plan a workshop.
+
+* This workshop should have:
+  * personae, 
+  * Skill goals
+  * 1 summative assessment, 
+  * 2 formative assessments, 
+  * 2 bulletpoints per formative assessment, 
+  * and be sorted into episodes. 
+
+We will resume discussion in 10 minutes. 
+???
+Brian
+
+---
 # Other stuff we did (without being explicit)
 1. Tried to combine visual and auditory information
 2. Didn't given the whole picture at once (but this can be useful as well)
+
+
+
+
+
 
 <!-- Put links here for bib and resources -->
 ---
 # Other resources
 
-* CDH
-* Greg Wilson paper
-<!-- BBS Figure out a citation manager if you have nothing better to do. -->
+* CDH: http://cdh.carpentries.org/
+* Greg Wilson says:
+
+<div style="font-size:90%; margin-left:5%">
+  <ol>
+<li> Figure out who your learners are and what their goals are. </li>
+<li> Create the summative assessment for the lesson to give yourself a target. </li>
+<li> Itemize the knowledge and skills that assessment relies on and create formative assessments to check on each while learning is taking place. </li>
+<li> Order those formative assessments in a way that respects their dependencies, i.e., so that they build on each other. </li>
+<li> Estimate the time required to cover each topic and perform its related formative assessment, then cut material that there isn't time for. </li>
+<li> Write lessons to connect each formative assessment to the next (which is usually much easier than writing an entire lesson at once). </li>
+<li> Double-check your language and examples to ensure that they address your learners' goals and won't demotivate them. </li>
+<li> Derive learning objectives and key points from the lesson to share with your learners and coinstructors. The former makes the lesson findable, while the latter gives you and your coinstructors a quick way to check what the lesson actually covers. </li>
+<li> Put everything online under an open license for other people to download, modify, and contribute to. </li>
+</ol>
+</div>
+
+Wilson G. Ten quick tips for creating an effective lesson. PLoS Comput Biol. 2019;15(4):e1006915. Published 2019 Apr 11. doi:10.1371/journal.pcbi.1006915
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
     <script>
+      remark.macros.img = function (altText, width) {
+  var url = this;
+  return '<div style="width: ' + width + '"><img style="padding-left:20px; padding-right:20px; width: 100%;" alt="' + altText + '" src="' + url + '" /><span style="font-size:75%;font-style:italic">'+altText+'</span></div>';
+};
+//https://github.com/gnab/remark/issues/72#issuecomment-62225566
       var slideshow = remark.create();
     </script>
   </body>
