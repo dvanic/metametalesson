@@ -8,6 +8,8 @@ CC-BY-SA International 4.0
 
 Event: https://2020.carpentrycon.org/schedule/#session-39
 
+Rendered slides: https://dvanic.github.io/metametalesson/#1
+
 ## Abstract: 
 
 In this session, we demonstrate how the constraints of reverse design reduce the uncertainty of a blank page titled 'Lesson 1'. Nowhere does the Carpentries demonstrate the full cycle of instructional design. We propose this workshop - co-developed by two experienced instructors - using this approach. The process of the development of this workshop is documented and shared as the content of the workshop. Attendees will see how learner personas, faded examples, concept maps, formative and summative assessment create requirements for lesson design.
