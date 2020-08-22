@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Lesson co-development using reverse design: a worked example</title>
     <meta charset="utf-8">
+
+<META NAME = "DC.title"
+TYPE = "alternative title"
+CONTENT = "Lesson co-development using reverse design: a worked example">
+
+<META NAME = "DC.creator"
+TYPE = "Name.Personal"
+CONTENT = "Darya Vanichinka">
+
+
+<META NAME = "DC.creator"
+TYPE = "Name.Personal"
+CONTENT = "Brian Ballsun-Stanton">
+
+
+<META NAME = "DC.rights"
+SCHEME = "URL|URN"
+CONTENT = "https://creativecommons.org/licenses/by-sa/4.0/">
+
+<META NAME = "DC.description"
+CONTENT = "
+We demonstrate how the constraints of reverse design reduce the uncertainty of a blank page titled 'Lesson 1'. Nowhere does the Carpentries demonstrate the full cycle of instructional design. We propose this workshop - co-developed by two experienced instructors - using this approach. The process of the development of this workshop is documented and shared as the content of the workshop. Attendees will see how learner personas, faded examples, concept maps, formative and summative assessment create requirements for lesson design. 
+
+We provide a worked example of the reverse design process without any assumptions of prior computational knowledge. After the workshop, attendees can combine their experience of the lesson we developed with the process of development, which we share with them, to apply this framework to their own training work.">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -28,9 +52,6 @@ TODO: Darya
   - Notes to self: make google docs for landing, plus x 2 for final challenge
   - Make sure to mention we'll publish google docs later
   - Make sure to have more visuals, even given limitation of tech stack
-
-TODO: Brian
-  - Make sure to have slides for all agenda items assigned to me before saturday.
 
  --> 
 
@@ -100,6 +121,17 @@ Removed 1. Aside: Common traps
 
 - Who we are (faces)
 
+<table>
+  <tr>
+    <td style="width:50%">
+      <b> Darya </b>
+      <img style="width:100%" src="images/daryaVhead1.jpg"/>
+    </td>
+    <td>
+      <b> Brian </b>
+      <img style="width:90%"  src="images/BrianSuit.jpg"/>
+</td>
+</tr></table>
 ???
 Both 
 ---
@@ -108,7 +140,7 @@ Both
 ???
 Darya
  ---
-# Real step 1: Who are your learners?
+# Who are your learners?
 
 - Reverse design: start with who your learners are and what they should be able to DO at the end of the course.
 - Everything is developed from that premise
@@ -334,6 +366,8 @@ Timer: https://cuckoo.team/metameta
 Darya
 
 ---
+class:center, middle
+
 # Break time
 
 10 minutes
@@ -401,7 +435,7 @@ Darya + Brian
 Need to note somewhere that formative assessments are also helpful for us to diagnose current learner mental models, and that they help us reduce cognitive load
 
 ---
-# Narrative: Skill decomposition, explanation, and setup
+# Skill decomposition, explanation, and setup
 
 * Each formative assessment will expect learners to do something.
 * Live coding **is a formative assessment.**
@@ -430,10 +464,10 @@ Need to note somewhere that formative assessments are also helpful for us to dia
   * Transitions, callouts, and asides come later. For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
 * Don't be this slide.
 ???
-
+Brian
 
 ---
-# Narrative: Allocate skills as learning objectives to the workshop.
+# Allocate skills as learning objectives to the workshop.
 
 * 45 minutes ago, we said to: "Think about what learners will be able to DO at the end"
 * What *specific* skills will they need to do that? 
@@ -447,6 +481,20 @@ Brian
 You need to flag/link Bloom's taxonomy here!
 
 1. B First draft: Allocate skills as learning objectives to lessons.
+---
+# Aside: Bloom&apos;s taxonomy
+
+
+
+![:img Vanderbilt's Center for Teaching - Patricia Armstrong - CC-BY https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/, 75%](images/bloom.png)
+
+.center[Recognise &rarr; Explain &rarr; Implement &rarr; Differentiate &rarr; Critique &rarr; Generate]
+
+<div style="font-size:70%"> Anderson, Lorin W., David R. Krathwohl, and Benjamin S. Bloom. <i>A Taxonomy for Learning, Teaching, and Assessing: a Revision of Bloom’s Taxonomy of Educational Objectives</i>. Editors, Lorin W. Anderson, David Krathwohl ; Contributors, Peter W. Airasian ... [et Al.]. Complete ed. New York: Longman, 2001. Print.</div>
+
+???
+Brian
+https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/
 
 ---
 # Making a challenge to exercise a skill
@@ -535,14 +583,14 @@ Which symbol means washing in warm water (40C/105F)?
 
 ---
 
-# Parson's problems: laundry
+# Parson&apos;s problems: laundry
 
 Rearrange the steps below to be in the correct order:
 
 <table>
   <tr>
     <td style="width:30%"">
-![:img Unsplash's perfect laundry pile](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+![:img Unsplash&apos;s perfect laundry pile](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 </td>
 <td>
 <ol>
@@ -559,18 +607,18 @@ Rearrange the steps below to be in the correct order:
 </table>
 
 ???
-1. D Challenges: Parson's problems
+1. D Challenges: Parson&apos;s problems
 
 ---
 
-# Parson's problems: laundry
+# Parson&apos;s problems: laundry
 
 Rearrange the steps below to be in the correct order:
 
 <table>
   <tr>
-    <td style="width:30%"">
-![:img Unsplash's perfect laundry pile](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+    <td style="width:30%">
+![:img Unsplash&apos;s perfect laundry pile](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 </td>
 <td>
 <ol>
@@ -588,7 +636,7 @@ Rearrange the steps below to be in the correct order:
 </table>
 
 ???
-1. D Challenges: Parson's problems
+1. D Challenges: Parson&apos;s problems
 
 ---
 # Challenges: Fill in the blank
@@ -637,6 +685,7 @@ Removed? Live coding is the simplest possible formative assessment: follow along
 <!--Could also use programming examples combined with boiling an egg?-->
 
 ---
+class:center, middle
 # Break time
 
 10 minutes
@@ -683,19 +732,55 @@ DB Reflection: Reflect on choice of formative assessments.
 
 
 ---
+# Time Yourself Doing and Talking
+
+* Challenges and narrative are only half the battle.
+* Exercises are slow, live-coding is slow
+* For each challenge plus its outline:
+  * Time yourself talking through the outline and doing each challenge
+  * Multiply that time by two: 
+    * You know what you mean
+    * You know what the answers are
+    * You are not interrupted and likely not speaking at a slow presentation pace
+  * This is your minimum time
+
+
+???
+1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
+
+---
 # Talking to you aside 3: Temporal budgets and overkill
 
 * You will write too much
 * You will design too much
 * What you design will suffer from the "expert awareness gap"
-* Aim low
+* Aim low and outline
+
+Lesson 1. *Don't overprepare:* spend time on what you know you will present
+
+Lesson 2. *Don't crowd the lesson:* allocating time for answering questions about the content and discussion about the lesson during your alpha preparations provides a "crumple zone" for emergencies (a challenge is too hard or an explanation needs to be redone.)
 
 ???
-1. B Aside: Temporal budgets and overkill
+
+Overprepare: you know your content and can unpack it and discuss it more thoroughly through ad-libbing. Adding content ahead of time that you know you won't get to wastes your time.
+
+Crowd the lesson: As they note in instructor training, it is better to go too slowly and bore some of the more expert members of your audience than it is to go too quickly and alienate those who are unsure. This heuristic is even more critical in an alpha lesson where you don't know how useful any of your planned explanations are. Aiming for 80% of your target time during initial development at the very worst allows for discussion at the end of an episode where your class can reflect on what went well and what needs improvement.
 ---
-# Preparing a pilot: Time Yourself talking
+# Make a concept map
+
+A concept map is a directed acyclic graph which represents the relationships and **dependencies** of concepts in the workshop. 
+
+* Your summative assessment is your goal/activity at the center.
+* That activity depends on skills taught by the formative assessments
+* Each assessment has necessary prior concepts which must be explained
+
+
+
+
+
 ???
-1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
+Brian
+
 ---
 # Episodes, challenges, narrative, and time-budget
 
@@ -735,6 +820,16 @@ We will resume discussion in 10 minutes.
 Brian
 
 ---
+# Wrapping up
+
+* Discussion of summative challenges
+* Questions from the session
+* Minute cards
+
+???
+Darya and Brian
+
+---
 # Other stuff we did (without being explicit)
 1. Tried to combine visual and auditory information
 2. Didn't given the whole picture at once (but this can be useful as well)
@@ -749,9 +844,9 @@ Brian
 # Other resources
 
 * CDH: http://cdh.carpentries.org/
-* Greg Wilson's manuscripts
 * Rstudio instructor training 
 * [Vanderbilt university teaching guides](https://cft.vanderbilt.edu/guides-sub-pages/)
+* From Wilson G. *Ten quick tips for creating an effective lesson.* PLoS Comput Biol. 2019;15(4):e1006915. Published 2019 Apr 11. doi:10.1371/journal.pcbi.1006915:
 
 <div style="font-size:90%; margin-left:5%">
   <ol>
@@ -767,7 +862,7 @@ Brian
 </ol>
 </div>
 
-Wilson G. Ten quick tips for creating an effective lesson. PLoS Comput Biol. 2019;15(4):e1006915. Published 2019 Apr 11. doi:10.1371/journal.pcbi.1006915
+
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
@@ -775,7 +870,7 @@ Wilson G. Ten quick tips for creating an effective lesson. PLoS Comput Biol. 201
     <script>
       remark.macros.img = function (altText, width) {
   var url = this;
-  return '<div style="width: ' + width + '"><img style="padding-left:20px; padding-right:20px; width: 100%;" alt="' + altText + '" src="' + url + '" /><span style="font-size:75%;font-style:italic">'+altText+'</span></div>';
+  return '<div style="margin-left:auto;margin-right:auto;width: ' + width + '"><img style="padding-left:20px; padding-right:20px; width: 100%;" alt="' + altText + '" src="' + url + '" /><span style="font-size:75%;font-style:italic">'+altText+'</span></div>';
 };
 //https://github.com/gnab/remark/issues/72#issuecomment-62225566
       var slideshow = remark.create();
