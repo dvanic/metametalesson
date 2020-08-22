@@ -2,10 +2,26 @@
 #circo conceptmap.dot -Tpng > images/conceptMap.png
 
 digraph G {
-
-  "Decompose desired skills to\nindividual achievable tasks"->"Design formative assessments";
+  "Descibe target audience"->"Make learner profiles";
+  "Make learner profiles"->"Figure out what skill audience has";
+  "Figure out what skill audience has"->"Design formative assessments";
+  "Figure out what skill audience has"->"Outline needed information";
+  "Make learner profiles"->"Figure out what skills audience wants to learn"
+  "Figure out what skills audience wants to learn"->"Decompose desired overall skill to\nindividual achievable tasks"
+  "Figure out what skill audience has"->"Choose assessment types\nto guide skill building";
+  "Choose assessment types\nto guide skill building"->"Design formative assessments";
+  "Decompose desired overall skill to\nindividual achievable tasks"->"Design formative assessments";
   "Design formative assessments"->"Build a summative assessment";
-  "Build a summative assessment"->"Teach a new lesson";
+  "Design formative assessments"->"Outline needed information";
   "Build a summative assessment"->"Design a concept map";
-  "Design a concept map" ->"Teach a new lesson";
+  "Build a summative assessment"->"Time activities";
+  "Time activities"->"Allocate activities and narratives\nto episodes";
+  "Design a concept map" ->"Allocate activities and narratives\nto episodes";
+  "Allocate activities and narratives\nto episodes"->"Run a pilot";
+  "Outline needed information"->"Write better explanatory text";
+  "Run a pilot"->"Write better explanatory text";
+  "Write better explanatory text"->"Teach a new lesson";
+  "Run a pilot"->"Teach a new lesson";
+
+
 }

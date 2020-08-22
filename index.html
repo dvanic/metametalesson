@@ -70,16 +70,28 @@ Brian Ballsun-Stanton PhD, Macquarie University
 ---
 # Agenda
 
-
-| Timing | Task |
-|------------|----------------------------------|
-| 30 minutes | "Who and what" + group exercises |
-| 10 minutes | Break |
-| 30 minutes | "Narrative and Challenges" + group exercises |
-| 10 minutes | Break |
-| 30 minutes | "Timing and Talking" + summative group assessment |
-| n minutes  | Discussion and Feedback (remaining time, unlikely)|
-| t-3 minutes | Minute Cards |
+<table style="margin:auto;margin-top:auto;">
+  <tr >
+    <th style="width:25%;border-bottom: 1px solid black"> Timing </th><th style="width:75%;border-bottom:1px solid black;"> Task</th>
+  </tr>
+  <tr>
+    <td>30 minutes</td><td> "Who and what" + group exercises </td>
+  </tr>
+  <tr><td> 10 minutes </td><td> Break </td></tr>
+  <tr>
+    <td>30 minutes</td><td> "Narrative and Challenges" + group exercises </td>
+  </tr>
+  <tr><td> 10 minutes </td><td> Break </td></tr>
+  <tr>
+    <td>30 minutes</td><td> "Timing and Talking" + summative group assessment </td>
+  </tr>
+  <tr>
+    <td>n minutes</td><td> Discussion and Feedback (remaining time, unlikely) </td>
+  </tr>
+  <tr>
+    <td>t-3 minutes</td><td> Minute Cards </td>
+  </tr>
+  </table>
 
 
 
@@ -130,9 +142,8 @@ Removed 1. Aside: Common traps
       <img style="width:90%"  src="images/BrianSuit.jpg"/>
 </td>
 </tr></table>
-???
-Both 
----`
+
+---
 # Purpose of this workshop
 
 <i> In this session, we demonstrate how the constraints of reverse design reduce the uncertainty of a blank page titled 'Lesson 1'. Nowhere does the Carpentries demonstrate the full cycle of instructional design. We propose this workshop - co-developed by two experienced instructors - using this approach. The process of the development of this workshop is documented and shared as the content of the workshop. Attendees will see how learner personas, faded examples, concept maps, formative and summative assessment create requirements for lesson design.
@@ -240,17 +251,9 @@ Darya
 
 # The rest of the personas
 
-<table>
-  <tr>
-    <td style="width:30%">
-![:img Generated image from thispersondoesnotexist.com -- StyleGAN2 (Dec 2019), Karras et al. and Nvidia, 75%](https://thispersondoesnotexist.com/image)
-</td>
-<td>
-<ul>
-<li> <a href="https://github.com/dvanic/metametalesson/blob/master/personas.md">https://tinyurl.com/personasdemo2</a>
-</td>
-</tr>
-</table>
+<!-- Removed the second reference to not a real person, as it was producing the same image. -->
+
+<a href="https://github.com/dvanic/metametalesson/blob/master/personas.md">https://tinyurl.com/personasdemo2</a>
 
 ???
 Darya
@@ -346,21 +349,11 @@ Each of us reflects on multiple groups in same google doc
 ???
 Darya
 
----
-# Our summative task for today: group development of mini-courses in < 2 hours!
-
-Options:
-
-1. Starting a new job off on the right foot (the first month)
-2. Diet and exercise to stay healthy 
-
-### Assess relevance/alignment of summative assessment with persona learning goals!
-
+--
 ### Other notes:
 - "Generic" topics - most people will be able to contribute
 ???
 Darya
-
 
 ---
 # Our summative task for today: group development of mini-courses in < 2 hours!
@@ -473,13 +466,18 @@ Need to note somewhere that formative assessments are also helpful for us to dia
 
 ![:img Meme from The Incredibles - Pixar/Disney, 30%](https://media1.tenor.com/images/b9a827678b058774a279b42084459108/tenor.gif?itemid=4809949)
 
-
+--
 * We are going to end up throwing most of the text away. 
   * Focus on how ideas relate to each other, not how to express them. 
-  * Transitions, callouts, and asides come later. For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
+  * Transitions, callouts, and asides come later. 
+--
+
 * Don't be this slide.
 ???
 Brian
+
+Transitions, callouts: For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
+
 
 ---
 # Allocate skills as learning objectives to the workshop.
@@ -772,12 +770,16 @@ Removed? Live coding is the simplest possible formative assessment: follow along
 
 
  -->
+
 ---
 # Reflection on formative assignments
 
-??? 
-DB Reflection: Reflect on choice of formative assessments.
+1. What were you testing in the assignment?
+1. How did wrong answers help you identify errors in thinking?
+1. What knowledge did the right answer require?
 
+???
+DB Reflection: Reflect on choice of formative assessments.
 
 ---
 # Time Yourself Doing and Talking
@@ -816,12 +818,20 @@ Crowd the lesson: As they note in instructor training, it is better to go too sl
 ---
 # Make a concept map
 
-A concept map is a directed acyclic graph which represents the relationships and **dependencies** of concepts in the workshop. 
-
-* Your summative assessment is your goal/activity at the center.
-* That activity depends on skills taught by the formative assessments
-* Each assessment has necessary prior concepts which must be explained
-
+<table>
+<tr>
+<td style="width:30%">
+A concept map is a directed graph which represents the relationships and **dependencies** of concepts in the workshop. 
+<ul>
+  <li>Your summative assessment is your goal/activity at the center.</li>
+  <li>That activity depends on skills taught by the formative assessments</li>
+  <li>Each assessment has necessary prior concepts which must be explained</li>
+</ul>
+</td>
+<td>
+  ![:img Concept map of workshop - source in presentation GitHub repository, 90%](images/conceptmap.png)
+</td>
+</tr>
 
 
 
@@ -898,7 +908,7 @@ Darya and Brian
 * [Vanderbilt university teaching guides](https://cft.vanderbilt.edu/guides-sub-pages/)
 * From Wilson G. *Ten quick tips for creating an effective lesson.* PLoS Comput Biol. 2019;15(4):e1006915. Published 2019 Apr 11. doi:10.1371/journal.pcbi.1006915:
 
-<div style="font-size:90%; margin-left:5%">
+<div style="font-size:80%; margin-left:5%">
   <ol>
 <li> Figure out who your learners are and what their goals are. </li>
 <li> Create the summative assessment for the lesson to give yourself a target. </li>
