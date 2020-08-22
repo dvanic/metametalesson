@@ -11,11 +11,6 @@ OR
 
 **10 minutes**
 
-## Tasks
-- [Starting a new job off on the right foot (the first month)](https://docs.google.com/document/d/1stNyGlXlMF0q6iGbFECW7PyUCX602h0LulUxx24lOx0/edit)
-- [Diet and exercise to stay healthy](https://docs.google.com/document/d/1s7fwbwI-Fpia7mkRT59gUwGeRdGpeZS6LWJOvBJxIDI/edit)
-
-
 In your breakout rooms (10 min or until 1st break?):
 1. Open https://cuckoo.team/metameta in a new tab and enter a name or pesudonym
 2. Introduce yourselves briefly (Who you are, what you do, one interesting thing you study/do, and your favourite tool)
