@@ -1,0 +1,11 @@
+#Uses graphviz
+#circo conceptmap.dot -Tpng > images/conceptMap.png
+
+digraph G {
+
+  "Decompose desired skills to\nindividual achievable tasks"->"Design formative assessments";
+  "Design formative assessments"->"Build a summative assessment";
+  "Build a summative assessment"->"Teach a new lesson";
+  "Build a summative assessment"->"Design a concept map";
+  "Design a concept map" ->"Teach a new lesson";
+}
