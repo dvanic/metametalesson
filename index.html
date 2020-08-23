@@ -315,9 +315,12 @@ Note: give it a go; then go to resources!
 ???
 Brian
 
-1. B Challenges: Finding data
+* Your learners are not you
+* They need to discover the utility of the methods, not just be told
+* Pulling from a real dataset, linked to their methods or discipline is one way to do this
+  * It also helps with cognitive load, 
+  * they don't need to learn what the terms mean
 
-Also: inclusivity in technical training
 --
 <!-- Incremental slide -->
 - Performance of FAIR data
@@ -325,16 +328,21 @@ Also: inclusivity in technical training
   - Participants must understand point of data and nature of data in about 5 minutes. **Simplify ruthlessly.**
   - Make sure there's a license which allows this.
 
+???
+
+* Real data also allows us to show the utility of reproducible research
+* "Real" allows them to understand in 5 minutes. Cut it down.
+
 --
 - Meet learners where they are
   - Carpentries participants have *hugely different* skill sets. 
   - A local lesson can assume shared context, jargon, and competencies. 
 
 ???
-Brian
-B Aside: Designing a carpentries workshop versus designing a lesson
 
-- Skills known by postgrads on the other side of the world, in different faculties should not be assumed.
+* Skills known by postgrads on the other side of the world, in different faculties should not be assumed.
+* Starting with discipline specific data builds on expected norms of discipline
+
 
 ---
 # Our summative task for today: group development of mini-courses in < 2 hours!
@@ -507,38 +515,62 @@ Need to note somewhere that formative assessments are also helpful for us to dia
 ---
 # Skill decomposition, explanation, and setup
 
-* Each formative assessment will expect learners to do something.
-* N.B.: Live coding **is a formative assessment.**
-* The narrative is: "What does a learner need to know in order to complete this formative assessment"
+
+* Research problems are formed out of many small, shared, tasks (and the occasional flash of insight)
+* Each formative assessment will expect learners to perform a common task which the summative assessment requires.
+* The narrative around a task is: "What does a learner need to know in order to complete this formative assessment"
    * Intended outcome
    * How do they know they have achieved success?
    * What pattern is the assessment demonstrating?
    * How does this link to the bigger picture?
+* Live coding **is a very accessible formative assessment.**
 
 ???
-1. B Narrative: What do people need to know to complete each formative assessment ()
-1. B First draft: Write an outline of your narrative for each code chunk
+
+* Research problems are unique
+  * They can be broken apart into simpler tasks
+  * We can teach to these tasks
+
+* Each of these split-apart tasks should reduce to a formative assessment
+  * Learners need to be able to perform the task
+  * Know when they're done
+  * Know what to expect
+  * Learn norms of error correction
+  * Relate the small task to larger context
+
+* Sum up: Break the large summative assessment into small common tasks
+  * Each task should have a clear end state which forms part of the summative assessment
+  * Must teach useful patterns in professional practice
+
+* Write narrative to situate task: 
+  * Pattern of "Tell, then show, then do"
+  * Useful for planning narrative
+
+
+
+
 ---
-# Talk-at-you aside 2: Start with an outline, not a script
+# Aside: Bloom&apos;s taxonomy
 
-* An outline specifies *what* you want to say, and how thoughts are arranged
-  * Writing a text or script specifies *how* you want to communicate thoughts previously arranged.
-  * When designing a work, outline at roughly a 1:4 ratio (1 word of outline for every 4 expected words of script)
-  * No sentences!
+* Decomposed skills should use Bloom's taxonomy
 
-![:img Meme from The Incredibles - Pixar/Disney, 30%](https://media1.tenor.com/images/b9a827678b058774a279b42084459108/tenor.gif?itemid=4809949)
+![:img Vanderbilt's Center for Teaching - Patricia Armstrong - CC-BY https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/, 75%](images/bloom.png)
 
---
-* We are going to end up throwing most of the text away. 
-  * Focus on how ideas relate to each other, not how to express them. 
-  * Transitions, callouts, and asides come later. 
---
+.center[Recognise &rarr; Explain &rarr; Implement &rarr; Differentiate &rarr; Critique &rarr; Generate]
 
-* Don't be this slide.
+<div style="font-size:70%"> Anderson, Lorin W., David R. Krathwohl, and Benjamin S. Bloom. <i>A Taxonomy for Learning, Teaching, and Assessing: a Revision of Bloom’s Taxonomy of Educational Objectives</i>. Editors, Lorin W. Anderson, David Krathwohl ; Contributors, Peter W. Airasian ... [et Al.]. Complete ed. New York: Longman, 2001. Print.</div>
+
 ???
 Brian
 
-Transitions, callouts: For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
+https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/
+
+* This pyramid has layers that build on each other. Each layer provides a tool used as *part* of processing on a higher level.
+
+* The foundation supports higher order.
+  * In order to create, we need to be able to evaluate options. 
+  * In order to evaluate, we need to be 
+
 
 
 ---
@@ -553,29 +585,41 @@ Transitions, callouts: For now, identify only what they need to know in order to
 
 ???
 Brian
-You need to flag/link Bloom's taxonomy here!
 
-1. B First draft: Allocate skills as learning objectives to lessons.
+
 ---
-# Aside: Bloom&apos;s taxonomy
+# Talk-at-you aside 2: For text in the lesson, Start with an outline, not a script
 
+* After writing skills and challenges, you'll need to teach to them by writing text around them. This should not be a full script, but essential points.
 
+* An outline specifies *what* you want to say, and how thoughts are arranged
+  * Writing a text or script specifies *how* you want to communicate thoughts previously arranged.
+  * When designing a work, outline at roughly a 1:4 ratio (1 word of outline for every 4 expected words of script)
+  * No sentences!
 
-![:img Vanderbilt's Center for Teaching - Patricia Armstrong - CC-BY https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/, 75%](images/bloom.png)
+![:img Meme from The Incredibles - Pixar/Disney, 25%](https://media1.tenor.com/images/b9a827678b058774a279b42084459108/tenor.gif?itemid=4809949)
+???
+* An outline focuses on relationships between thoughts
+* Key points
+* Organisation and flow
 
-.center[Recognise &rarr; Explain &rarr; Implement &rarr; Differentiate &rarr; Critique &rarr; Generate]
-
-<div style="font-size:70%"> Anderson, Lorin W., David R. Krathwohl, and Benjamin S. Bloom. <i>A Taxonomy for Learning, Teaching, and Assessing: a Revision of Bloom’s Taxonomy of Educational Objectives</i>. Editors, Lorin W. Anderson, David Krathwohl ; Contributors, Peter W. Airasian ... [et Al.]. Complete ed. New York: Longman, 2001. Print.</div>
+--
+* We are going to end up throwing most of the text away. 
+  * Focus on how ideas relate to each other, not how to express them. 
+  * Transitions, callouts, and asides come later. 
 
 ???
-Brian
-https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/
 
-This pyramid has layers that build on each other. Each layer provides a tool used as *part* of processing on a higher level.
+* Differentiate what from how
+* Expect most words to be thrown away
+* Don't waste writing
 
-The foundation supports higher order.
-In order to create, we need to be able to evaluate options. 
-In order to evaluate, we need to be 
+* This slide has sentences and is a bad example of an outline. 
+
+* Narrative writing
+  * No Transitions,
+  * No callouts
+  * For now, identify only what they need to know in order to accomplish the assessment, how they know they've succeeded, and how it links to the final goal.
 
 
 ---
@@ -824,14 +868,15 @@ A constant refrain for sticky notes during a workshop is a constant refrain of f
 ???
 Brian
 
-1. B Aside: How does live coding factor into this?
+
+
 
 ---
 # Formative Challenge 2: Design formative assessments needed to accomplish summative task.
 
 **10 minutes**
 
-In your groups, go back to the Google docs. Start to design some formative assessements you might use to build towards your summative task.
+In your groups, go back to the Google docs. Start to design some formative assessments you might use to build towards your summative task.
 
 Make sure you design at least one:
 
@@ -849,7 +894,6 @@ Timer: https://cuckoo.team/metameta
 ???
 Brian
 
-1. B Exercise: Design formative assessments needed to accomplish summative task.
 
 
 ---
@@ -913,7 +957,7 @@ Removed? Live coding is the simplest possible formative assessment: follow along
 1. What knowledge did the right answer require?
 
 ???
-DB Reflection: Reflect on choice of formative assessments.
+Darya Reflection: Reflect on choice of formative assessments.
 
 ---
 # Time Yourself Doing and Talking
@@ -932,7 +976,6 @@ DB Reflection: Reflect on choice of formative assessments.
 ???
 Brian
 
-1. B Time yourself talking about the code you're typing, and then *do* your challenges. This *2 is your minimum time (you already know the answers).
 
 ---
 # Talking to you aside 3: Temporal budgets and overkill
